@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.card {
+    width: 300px;
+    height: 400px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+}
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+}
+
+.content {
+    padding: 15px;
+    text-align: center;
+}
+.id{
+    display: flex;
+}
+.container .card .first{
+    height: 60px;
+    width: 200px;
+    
+}
+.container .card .second{
+    height: 60px;
+    width: 200px;
+   
+}
+h1{
+    text-align: right;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+h1{
+    color: rgb(18, 7, 88);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:429%;
+}
+h4{
+    color: rgb(18, 7, 88);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    
+}
+h6{
+    color: rgb(218, 95, 19);
+}
+.container .card .third{
+    height: 15px;
+    width: 200px;
+    
+ 
+}
+h5{
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.75cap;
+}
+.four{
+    width: 400px;
+    height: 20px;
+    
+}
+h6{
+    text-align: center;
+    letter-spacing:0,5ch;
+}
+.card .image{
+    display: flex;
+    justify-content: center;
+}
+.card .image .inner{
+    height: 60px;
+    width: 70px;
+    overflow: auto;
+    border-radius: 50%;
+  }
+  .card .inner img{
+      width: 50px;
+      justify-content: center;
+  }
+  .card .pic{
+    display: flex;
+    justify-content: center;
+
+}
+.card .pic .in{
+  height: auto;
+  width: 150px;
+  margin-top: -99% ;
+  overflow:visible;
+  border-radius:2cqmax;
+}
+.card .in img{
+    width: 159px;
+    justify-content: center;
+}
+.container .card .val{
+    height: 10px;
+    width: 400px;
+    margin-top: 10%;
+   
+}
+.two{
+    display: flex;
+}
+h7{
+    text-align: right;
+    color:rgb(18, 7, 88) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.container .card .imag{
+    height: 40px;
+    width: 400px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+.container .card .imag img{
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+  position: absolute;
+  right: 47%;
+}
+.container .card .pic{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+}
+.container .card .pic {
+    height: 35px;
+    width: 400px;
+}
+h7{
+    color: rgb(18, 7, 88);
+ font-size: small;
+    position:relative;
+    right: 14%;    
+}
+.container .card .profile img{
+    position: relative;
+height: 180px;
+width: 130px;
+right: -33%;
+}
+.container .card .name h3{
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.container .card .class h5{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;
+}
+.container.card .class h6{
+    height:20px;
+    width : 200px;
+}
+p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;
+}
+.container .card .bar img{
+    position: relative;
+    right: -25%;
+    height: 40px;
+    width: 200px;
+
+}
+.detail{
+    display: flex;
+}
+.container .card .aadhar{
+    height: 20px;
+    width: 200px;
+    background-color:  rgb(83, 243, 109);
+}
+.container .card .valid{
+    height: 20px;
+    width: 200px;
+    background-color:  rgb(83, 243, 109);
+}
+.container .card .aadhar h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: small;
+padding-left: 20%;
+}
+.container .card .valid h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: end;
+font-size: small;
+padding-right:27%;
+}
+.sec{
+    display: flex;
+}
+.container .card .father{
+    height: 20px;
+    width: 250px;
+    background-color: rgb(83, 243, 109);
+}
+.container .card .blood{
+    height: 20px;
+    width: 200px;
+    background-color: rgb(83, 243, 109);
+}
+.container .card .father h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:small;
+padding-left: 17%;
+}
+.container .card .blood h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: end;
+font-size: small;
+padding-right:44%;
+}
+.hut{
+    display: flex;
+}
+.container .card .village{
+    height: 20px;
+    width: 200px;
+    background-color: rgb(83, 243, 109);
+}
+.container .card .cell{
+    height: 20px;
+    width: 200px;
+    background-color:  rgb(83, 243, 109);
+}
+.container .card .village h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: small;
+padding-left: 20%;
+}
+.container .card .cell h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: end;
+font-size: small;
+padding-right: 15%;
+}
